@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage timestamp="01:20:39">                                    
+    <sources>
+        <source>.</source>
+    </sources>
+    <packages>
+        <package name="workflow.kbin" >      
+            <classes>
+                <class name="my_class" >                
+                    <lines>
+						<line number="2" hits="4"/>
+						<line number="5" hits="0"/>
+                        <line number="12" hits="23"/>
+						<line number="14" hits="2"/>
+						<line number="30" hits="278"/>
+                        <line number="34" hits="23411"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
