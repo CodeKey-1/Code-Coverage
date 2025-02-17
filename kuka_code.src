@@ -21,16 +21,4 @@ DEF test()
       PDAT_ACT = PDEFAULT
       FDAT_ACT = FHOME
       BAS (#PTP_PARAMS, 100)
-      PTP XHOME
-   ENDFOLD
-   
-   LOOP
-      FOLD PTP P1 Vel=100% PDAT1 Tool[1] Base[0]; %[PE]SMKUKATPBASIS, SCMOVE, %VPTP, %P 1:PTP, 2:P1, 3, 5:100, 7:PDAT1
-         SBWDSTART = FALSE
-         PDAT_ACT = PPDAT1
 
-      PTP P3
-      PTP P4
-   ENDLOOP
-   
-END
